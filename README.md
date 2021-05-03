@@ -30,4 +30,34 @@ VaccineNotifier checks the CoWIN Portal periodically to find vaccination slots a
 
 
 Here's a sample of the resultant emails:
-![image info](./sampleEmail.png)
+```
+Vaccine available. Details:
+
+[
+    {
+        "center_id": 578367,
+        "name": "VASANTHNAGAR UPHC BLOCK",
+        "state_name": "Karnataka",
+        "district_name": "BBMP",
+        "block_name": "East",
+        "pincode": 560001,
+        "from": "09:00:00",
+        "to": "18:00:00",
+        "lat": 12,
+        "long": 77,
+        "fee_type": "Free",
+        "session_id": "ed6cf641-411b-4dea-8b58-57c3944770b3",
+        "date": "06-05-2021",
+        "available_capacity": 11,
+        "fee": "0",
+        "min_age_limit": 45,
+        "vaccine": "COVISHIELD",
+        "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+            ]
+    }
+]
+```
