@@ -15,11 +15,11 @@ VaccineAvailabilityNotifier checks the Co-WIN Portal once every 30 minutes to fi
     $ cd VaccineAvailabilityNotifier
     ```
 
-4. Modify the .env file by adding PINCODE, EMAIL, APPLICATION_PASSWORD (16-character code from Step 1) and AGE. <br>
+4. Update the `.env` file by adding PINCODE, EMAIL, APPLICATION_PASSWORD (16-character code from Step 1) and AGE. <br>
     `$ vi .env`
 
-    **> NOTE: <br>**
-    **UPDATE ONLY THE FIRST FOUR LINES** <br>
+    > **Note:**<br>
+    **UPDATE ONLY THE FIRST FOUR LINES.**
 
 5. Install dependencies:
     * Install NPM for your OS from [Installing Node.js via package manager](https://nodejs.org/en/download/package-manager).
