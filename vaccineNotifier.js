@@ -25,7 +25,7 @@ async function main(){
                 console.error({err});
             }
         });
-        cron.schedule('0 * * * *', async () => {
+        cron.schedule('*/30 * * * *', async () => {
              await checkAvailability();
         });
     } catch (e) {

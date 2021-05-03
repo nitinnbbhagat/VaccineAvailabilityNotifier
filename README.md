@@ -1,5 +1,5 @@
 # VaccineNotifier
-VaccineNotifier checks the CoWIN Portal periodically to find vaccination slots available in your PIN code and for your age. If found, it will send you notifications via Email.
+VaccineNotifier checks the CoWIN Portal once every 30 minutes to find vaccination slots available in your PIN code and for your age. If found, it will send you a notification via Email.
 
 
 ## Prerequisites
