@@ -2,7 +2,7 @@
 VaccineNotifier checks the CoWIN Portal periodically to find vaccination slots available in your PIN code and for your age. If found, it will send you notifications via Email.
 
 
-## Pre-requisites
+## Prerequisites
 
 1. Enable application access on your Gmail with [Sign in with App Passwords](https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637554658548216477-2576856839&rd=1).
 
