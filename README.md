@@ -51,7 +51,8 @@ VaccineAvailabilityNotifier checks the Co-WIN Portal once every 30 minutes to fi
 
 ---
 
-Here's a sample of the resultant emails:
+## Sample of resultant mails
+
 1. First mail - enabling notifications: <br>
 ![](images/sample-email-1.png)
 
@@ -63,8 +64,8 @@ Here's a sample of the resultant emails:
 
 ## Important Links
 
-* [Co-WIN Public APIs](https://apisetu.gov.in/public/api/cowin)
 * [Co-WIN Home Page](https://www.cowin.gov.in/home)
 * [Manual Registration](https://selfregistration.cowin.gov.in/)
+* [Co-WIN Public APIs](https://apisetu.gov.in/public/api/cowin)
 * [Aarogya Setu](https://www.aarogyasetu.gov.in/)
 * [UMANG](https://web.umang.gov.in/web_new/login?redirect_to=)
