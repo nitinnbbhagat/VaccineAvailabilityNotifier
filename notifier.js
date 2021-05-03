@@ -8,13 +8,18 @@ let nodemailerTransporter = nodemailer.createTransport({
     }
 });
 
-
 exports.sendEmail = function (email, subjectLine, validSlots, callback) {
+    if (validSlots == 'Start notification') {
+        mailBody = 'Notifications has been enabled.\nMails will be sent if vaccine slots are available.'
+    }
+    else {
+        mailBody = 'Slot details are as follows: \n\n' + validSlots
+    }
     let options = {
         from: String('Vaccine Checker ' + process.env.EMAIL),
         to: email,
         subject: subjectLine,
-        text: 'Vaccine available. Details: \n\n' + validSlots
+        text: mailBody
     };
     nodemailerTransporter.sendMail(options, (error, info) => {
         if (error) {
